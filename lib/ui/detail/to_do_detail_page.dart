@@ -1,7 +1,7 @@
 // 상세 페이지
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:tasks/home/home_view_model.dart';
+import 'package:tasks/ui/home/home_view_model.dart';
 
 class TodoDetailPage extends ConsumerWidget {
   const TodoDetailPage({super.key, required this.id});

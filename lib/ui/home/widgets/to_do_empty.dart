@@ -10,15 +10,15 @@ class Empty extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: EdgeInsets.all(20),
-      margin: EdgeInsets.all(20),
+      padding: EdgeInsets.all(12),
+      margin: EdgeInsets.all(12),
       decoration: BoxDecoration(
         color: Colors.grey[200],
         borderRadius: BorderRadius.circular(12),
       ),
       child: Column(
         children: [
-          Image.asset("lib/image/todo_image.webp", width: 100, height: 100),
+          Image.asset("assets/image/todo_image.webp", width: 100, height: 100),
           SizedBox(height: 12),
           Text(
             "아직 할 일이 없음",

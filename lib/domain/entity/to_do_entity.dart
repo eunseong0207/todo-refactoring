@@ -13,7 +13,7 @@ class ToDoEntity {
   bool isFavorite;
   bool isDone;
 
-  // 1. fromJson 네임드 생성자 만들기
+  // 1. fromJson 네임드 생성자 만들기 - tododto로 빼야함
   ToDoEntity.fromJson(Map<String, dynamic> map)
     : this(
         id: map['id'],
@@ -22,7 +22,7 @@ class ToDoEntity {
         isFavorite: map['isFavorite'],
         isDone: map['isDone'],
       );
-  // 2. toJson 메서드 만들기
+  // 2. toJson 메서드 만들기 - tododto로 빼야함
   Map<String, dynamic> toJson() {
     return {
       'id': id,

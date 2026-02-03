@@ -3,8 +3,8 @@
 // 2. 뷰모델
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:tasks/to_do/to_do_entity.dart';
-import 'package:tasks/to_do_repository.dart';
+import 'package:tasks/domain/entity/to_do_entity.dart';
+import 'package:tasks/data/repository/dto/to_do_repository.dart';
 
 class HomeViewModel extends Notifier<List<ToDoEntity>> {
   @override
